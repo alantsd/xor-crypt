@@ -5,8 +5,9 @@
 extern "C" {
 #endif
 
-void xor_crypt(uint8_t* buf, size_t len, uint8_t* key);
-
+void xor_encrypt(uint8_t* buf, size_t len, uint8_t* key);
+void xor_decrypt(uint8_t* buf, size_t len, uint8_t* key);
+  
 #ifdef __cplusplus
 }
 #endif
